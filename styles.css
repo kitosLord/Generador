@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Estilo general del body */
+body {
+    background-color: #f8f9fa; /* Color de fondo suave */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 30px; /* Más padding */
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilo para el título */
+.form-label {
+    font-size: 1.5em;
+    color: #343a40; /* Color oscuro para el texto */
+    margin-bottom: 20px;
+}
+
+/* Estilo para los botones */
+.btn {
+    border-radius: 5px; /* Bordes redondeados en los botones */
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background-color 0.3s ease; /* Transición suave en hover */
+    margin-bottom: 20px; /* Espaciado debajo del botón */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Estilo para el área del ejemplo */
+#ejemplo {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f3f5;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #495057;
+    text-align: center;
+    min-height: 50px; /* Altura mínima para mayor legibilidad */
+}
+
+/* Ajustes adicionales para el contenido generado */
+#ejemplo strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #343a40;
+}
+
+#nombre-generado {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
